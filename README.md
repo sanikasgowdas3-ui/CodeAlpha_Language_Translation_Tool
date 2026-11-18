@@ -14,7 +14,7 @@ Technologies Used
 
 Project Files
 
-- Index.html – Creates the webpage.
+- index.html – Creates the webpage.
 - style.css – Designs the webpage.
 - script.js – Handles the functionality.
 
