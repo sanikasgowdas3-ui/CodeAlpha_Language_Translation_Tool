@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px 22px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 12px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 22px;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.language-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+select {
+    flex: 1;
+    min-width: 0;
+    padding: 12px 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 13px 18px;
+    border-radius: 9px;
+    font-size: 15px;
+}
+
+#translateBtn {
+    width: 100%;
+}
+
+h3 {
+    text-align: left;
+    margin: 24px 0 10px;
+}
+
+#outputText {
+    background: #f2f4ff;
+    border-radius: 12px;
+    padding: 18px;
+    min-height: 85px;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+#copyBtn {
+    width: 100%;
+    margin-top: 12px;
+    background: #16a085;
+}
+
+#status {
+    margin-top: 15px;
+    font-size: 13px;
+}
